@@ -11,7 +11,7 @@ with open('./main.css') as f:
 
 st.markdown(f'<style>{css}</style>', unsafe_allow_html=True)
 
-st.image('fisk_logo.png')
+st.image('fisk_logo_transparent.jpeg')
 st.title("Welcome to the Sponsored Researches Page")
 
 with st.sidebar:
