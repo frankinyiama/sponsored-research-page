@@ -1,21 +1,17 @@
 import streamlit as st
 from st_pages import Page, show_pages
-
-st.set_page_config(
-    page_title = "Home",
-    #page_icon="👋",
-)
+from functions import *
 
 with open('./main.css') as f:
     css = f.read()
 
 st.markdown(f'<style>{css}</style>', unsafe_allow_html=True)
 
-st.image('fisk_logo_transparent.jpeg')
-st.title("Welcome to the Sponsored Researches Page")
+left_co, cent_co, last_co = st.columns(3)
+with cent_co:
+    st.image('fisk_logo_transparent.jpeg')
 
-with st.sidebar:
-    st.image('fisk_logo.png')
+display_title("Welcome to the Sponsored Researches Page")
 
 show_pages(
    [
