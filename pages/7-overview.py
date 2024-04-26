@@ -10,4 +10,10 @@ left_co, cent_co, last_co = st.columns(3)
 with cent_co:
     st.image('fisk_logo_transparent.jpeg')
 
+<<<<<<< HEAD
 display_sponsored_research('Overview')
+=======
+display_sponsored_research()
+
+# st.set_page_config(page_title="Overview")
+>>>>>>> 874a0f5 (Adding css)
