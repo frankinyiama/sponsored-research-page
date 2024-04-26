@@ -11,6 +11,3 @@ with cent_co:
     st.image('fisk_logo_transparent.jpeg')
 
 display_sponsored_research('General')
-# display_sub_title('General')
-
-# st.set_page_config(page_title="General") 

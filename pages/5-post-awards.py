@@ -10,6 +10,4 @@ left_co, cent_co, last_co = st.columns(3)
 with cent_co:
     st.image('fisk_logo_transparent.jpeg')
 
-display_sponsored_research()
-
-# st.set_page_config(page_title="Post Awards")
+display_sponsored_research('Post Awards')
