@@ -8,7 +8,7 @@
 }
 
 .stApp {
-    background-color: #91b9c5;
+    background-color: #ffffff;
     /* color: black; */
 }
 
@@ -19,6 +19,12 @@ h1 {
 }
 
 h2 {
+    color: #A0B2F3;
+    font-family: 'Inter';
+    color: black
+}
+
+p {
     color: #A0B2F3;
     font-family: 'Inter';
     color: black

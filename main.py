@@ -7,9 +7,7 @@ with open('./main.css') as f:
 
 st.markdown(f'<style>{css}</style>', unsafe_allow_html=True)
 
-left_co, cent_co, last_co = st.columns(3)
-with cent_co:
-    st.image('fisk_logo_transparent.jpeg')
+display_fisk_logo()
 
 display_title("Welcome to the Sponsored Researches Page")
 
