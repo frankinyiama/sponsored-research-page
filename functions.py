@@ -1,5 +1,10 @@
 import streamlit as st
 
+def display_fisk_logo():
+    left_co, cent_co, last_co = st.columns(3)
+    with cent_co:
+        st.image('pictures/fisk_logo_transparent.jpeg')
+        
 def display_title(title):
     output = f'''
         <h1 
