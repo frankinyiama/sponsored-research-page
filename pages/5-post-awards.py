@@ -12,11 +12,10 @@ display_sponsored_research('Post Awards')
 
 department = st.selectbox(
   'Department',
-  ['Life and Physical Sciences','Math and Computer Science','ARts and Language ','Behavioral Sciences','Library'],
+  ['Life and Physical Sciences','Math and Computer Science','Arts and Language ','Behavioral Sciences','Library'],
 )
 
-primary_investigator = department = st.selectbox(
-  'Department',
-  ['Sajid Hussain','Dr.Lei Qian','Dr.Ning Zang','Dr Fridous KAuser']
+primary_investigator = st.selectbox(
+  'Primary Investigator',
+  ['Dr. Sajid Hussain','Dr. Lei Qian','Dr. Ning Zang','Dr. Firdous Kauser']
 )
-
